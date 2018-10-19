@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".DetailsActivity">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/img_detail_icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorPrimary"
+        android:src="@drawable/add_photo" />
+
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/first_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_detail_icon"
+        android:layout_marginTop="20dp"
+        android:text="First Name" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/text_first_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_detail_icon"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/first_text"
+        android:hint="First Name" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/last_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/first_text"
+        android:text="Last Name" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/text_last_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/first_text"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/last_text"
+        android:hint="Last Name" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/full_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/last_text"
+        android:text="Full Name:" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/textViewFullName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/last_text"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/full_text"
+        android:hint="Full Name" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/email_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/full_text"
+        android:text="Email Id:" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/text_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/full_text"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/email_text"
+        android:hint="Email Id" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/user_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_email"
+        android:text="User Name:" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/text_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_email"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/user_text"
+        android:hint="User Name" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/password_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_text"
+        android:text="Password:" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/text_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_text"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/password_text"
+        android:hint="Password" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/gender_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password_text"
+        android:text="Gender:" />
+
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/textViewGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password_text"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/gender_text"
+        android:hint="Gender" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/user_type_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gender_text"
+        android:text="User Type:" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/textViewUserType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gender_text"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/user_type_text"
+        android:hint="User Type" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/hobbies_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_type_text"
+        android:text="Hobbies:" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/text_hobbies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_type_text"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/hobbies_text"
+        android:hint="Hobbies" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/textViewOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_hobbies"
+        android:layout_marginTop="10dp"
+        android:text="Ok" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/textViewEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_hobbies"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/textViewOk"
+        android:text="Edit" />
+
+</RelativeLayout>
